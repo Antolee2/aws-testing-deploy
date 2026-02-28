@@ -6,10 +6,10 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
-class cseControllerTest {
+class CseControllerTest {
 	@Autowired
 	
-	cseController c = new cseController();
+	CseController c = new CseController();
 	@Test
 	void csetest() {
 		int result=c.addcse(2,3);
