@@ -1,5 +1,5 @@
 package org.springframework.web.bind.annotation;
 
-public class RestController {
+public @interface RestController {
 
 }
